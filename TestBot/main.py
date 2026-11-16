@@ -15,6 +15,6 @@ def send_message(message):
 def send_message_and_photo(message):
     with open('photo_2026-02-20_12-17-14.jpg', 'rb') as photo:
         botik.send_photo(message.chat.id, photo, caption='Слава ВГУ! Слава ФКН!')
-
+#Слава ВГУ! Героям слава!
 
 botik.infinity_polling()
